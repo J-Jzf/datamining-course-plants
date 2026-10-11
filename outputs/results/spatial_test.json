@@ -1,0 +1,8 @@
+{
+  "spearman_r": 0.8408750876331134,
+  "permutation_p": 0.001,
+  "n_permutations": 999,
+  "alternative": "two-sided",
+  "permutation_unit": "region labels, jointly permuted matrix rows and columns",
+  "geography": "great-circle distance between approximate administrative representative points"
+}

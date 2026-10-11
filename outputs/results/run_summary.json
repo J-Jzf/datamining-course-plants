@@ -1,0 +1,71 @@
+{
+  "core_complete": true,
+  "extensions_complete": true,
+  "n_species": 21400,
+  "n_regions": 64,
+  "n_train": 17120,
+  "n_validation": 4280,
+  "n_itemsets": 18854,
+  "n_rules": 27037,
+  "n_validated_rules": 25038,
+  "cluster_k": 4,
+  "silhouette": 0.2206783862739884,
+  "mining_seconds": 4.431005800142884,
+  "config": {
+    "seed": 2026,
+    "min_support": 0.03,
+    "min_confidence": 0.75,
+    "min_lift": 1.15,
+    "max_len": 3,
+    "test_fraction": 0.2,
+    "clusters": null,
+    "bootstrap_repeats": 30,
+    "benchmark_repeats": 2,
+    "n_permutations": 999,
+    "max_completion_queries": 2000,
+    "broad_fraction": 0.05
+  },
+  "data_sha256": "3fc4fdd9afcbacf51916913109e94e8bb90afeae681c9122ad9042feba9a47b7",
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "sklearn": "1.7.2"
+  },
+  "interpretation": "Recorded presence; zero is unrecorded, not verified absence.",
+  "selection": "All rules and cluster selection fitted on training species only; full-data richness is descriptive.",
+  "validation": "One-sided Fisher tests and BH q-values across the frozen training-rule family; antecedent count >=20.",
+  "cluster_selection": "Highest training Jaccard silhouette within a priori k=4..9 unless --clusters supplied.",
+  "core_seconds": 14.796439400175586,
+  "bootstrap_mean_ari": 0.9214050812117734,
+  "grouped": {
+    "n_train": 16719,
+    "n_validation": 4681,
+    "n_train_genera": 2418,
+    "n_validation_genera": 605,
+    "n_rules": 27662,
+    "n_validated_rules": 23567,
+    "matched_random_rules": 26712
+  },
+  "spatial": {
+    "spearman_r": 0.8408750876331134,
+    "permutation_p": 0.001,
+    "n_permutations": 999,
+    "alternative": "two-sided",
+    "permutation_unit": "region labels, jointly permuted matrix rows and columns",
+    "geography": "great-circle distance between approximate administrative representative points"
+  },
+  "broad_species": {
+    "baseline_k": 4,
+    "filtered_k": 4,
+    "ari": 0.7307236801097051,
+    "removed_n": 856,
+    "removed_fraction": 0.05,
+    "minimum_removed_breadth": 37,
+    "rule_retention_fraction": 0.16636461145837186,
+    "tie_policy": "Exactly top fraction; ties use deterministic training-row order."
+  },
+  "all_experiments_seconds": 110.79511449998245
+}

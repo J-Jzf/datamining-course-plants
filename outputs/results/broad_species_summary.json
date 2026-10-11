@@ -1,0 +1,10 @@
+{
+  "baseline_k": 4,
+  "filtered_k": 4,
+  "ari": 0.7307236801097051,
+  "removed_n": 856,
+  "removed_fraction": 0.05,
+  "minimum_removed_breadth": 37,
+  "rule_retention_fraction": 0.16636461145837186,
+  "tie_policy": "Exactly top fraction; ties use deterministic training-row order."
+}

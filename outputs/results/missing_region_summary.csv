@@ -1,0 +1,4 @@
+﻿method,n_queries,coverage,recall_at_1,recall_at_3,recall_at_5
+Association rules,2000,0.8385,0.385,0.5545,0.6225
+Region popularity,2000,1.0,0.094,0.2185,0.3195
+Random,2000,1.0,0.0235,0.0605,0.1005
